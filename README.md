@@ -1,4 +1,4 @@
-# Backup remote mikrotik config
+# Backup Mikrotiks configurations
 
 Script makes and downloads configuration backup to a server in text and binary formats.
 
