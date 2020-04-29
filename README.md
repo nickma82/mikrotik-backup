@@ -1,7 +1,8 @@
-Backup remote mikrotik config
-=============================
+# Backup remote mikrotik config
 
-Script made and download config backup to server in text and binary formats.
+Script makes and downloads configuration backup to a server in text and binary formats.
+
+## Usage
 
 To use this script you need:
 
@@ -9,3 +10,7 @@ To use this script you need:
 2. Upload public ssh key and attach it to the user.
 
 Multiple routers list allowed by space separated.
+
+## License
+
+MIT Licensed. See LICENSE for full details.
