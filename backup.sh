@@ -1,10 +1,7 @@
-#!/bin/bash
-routers=( 192.168.1.1 192.168.2.1 192.168.3.1 )
-backupdir="/home/backup/mikrotik"
-privatekey="/root/.ssh/id_dsa"
-login="user"
-passwd="pa$Sw0rd"
-fulldir="${backupdir}/`date +%Y`/`date +%m`/`date +%d`"
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source ${DIR}/mikrotik_backup.settings
 
 for r in ${routers[@]}; do
     cmd_backup="/system backup save name=${r}.backup"

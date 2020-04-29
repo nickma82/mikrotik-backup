@@ -5,7 +5,7 @@ Script made and download config backup to server in text and binary formats.
 
 To use this script you need:
 
-1. Register user on mikrotik with login and password used in script.
-2. Upload public ssh key and setup it to this user.
+1. Register user on Mikrotik with login and password used in the script.
+2. Upload public ssh key and attach it to this user.
 
-Multiple routers list allowed space separated.
+Multiple routers list allowed by space separated.
