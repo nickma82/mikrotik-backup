@@ -1,6 +1,6 @@
 [![Logo](https://dntsk.dev/assets/logo_transparent_crop_360.png)](https://dntsk.dev)
 
-[![Maintained](https://img.shields.io/badge/maintained%20by-dntsk.dev-blue.svg)](https://dntsk.dev/) [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-blue.svg)](https://www.gnu.org/software/bash/) 
+[![Maintained](https://img.shields.io/badge/maintained%20by-dntsk.dev-blue.svg)](https://dntsk.dev/) [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![made-with-bash](https://img.shields.io/badge/made%20with-Bash-blue.svg)](https://www.gnu.org/software/bash/) 
 
 # Backup Mikrotiks configurations
 
