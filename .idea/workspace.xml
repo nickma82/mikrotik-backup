@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af95f339-266d-49cb-b68f-410ca733f87c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mikrotik_backup" beforeDir="false" afterPath="$PROJECT_DIR$/mikrotik_backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mikrotik_backup.settings" beforeDir="false" afterPath="$PROJECT_DIR$/mikrotik_backup.settings" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bE39h4PESvACoHIz4v37wq4SCT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af95f339-266d-49cb-b68f-410ca733f87c" name="Default Changelist" comment="" />
+      <created>1588183275523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588183275523</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Outdated">
+      <created>1588183382592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588183382592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Outdated">
+      <created>1588183441608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588183441608</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: move settings to another file">
+      <created>1588184819458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588184819458</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: add ssh port">
+      <created>1588184843276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588184843276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="typo: use braces in variables">
+      <created>1588185005208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588185005208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="typo:">
+      <created>1588185022868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588185022868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs: Readme.md updated">
+      <created>1588185235737</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588185235737</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs: License file added">
+      <created>1588185251077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588185251077</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docs: typo">
+      <created>1588185570171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588185570171</updated>
+    </task>
+    <task id="LOCAL-00010" summary="docs: add logo and badges">
+      <created>1588798003086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798003086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: typo">
+      <created>1588798050328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798050328</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.settings" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Outdated" />
+    <MESSAGE value="feature: move settings to another file" />
+    <MESSAGE value="feature: add ssh port" />
+    <MESSAGE value="typo: use braces in variables" />
+    <MESSAGE value="typo:" />
+    <MESSAGE value="docs: Readme.md updated" />
+    <MESSAGE value="docs: License file added" />
+    <MESSAGE value="docs: typo" />
+    <MESSAGE value="docs: add logo and badges" />
+    <MESSAGE value="fix: typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: typo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="43" key="CommitChangelistDialog2" timestamp="1588798050235">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="321" y="43" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588798050235" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588798051103">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588798051103" />
+  </component>
+</project>
