@@ -6,10 +6,14 @@ Script makes and downloads configuration backup to a server in text and binary f
 
 ## PreRequisits
 
-Upload public ssh key and attach it to the user. 
+Upload public ssh key and attach it to the user.<br/>
 https://wiki.mikrotik.com/wiki/Using_SSH_for_system_backup#Preparing_the_Mikrotik
 
 Multiple routers list allowed by space separated.
+
+## Restore
+
+See: https://wiki.mikrotik.com/wiki/Manual:System/Backup#Loading_a_backup
 
 ## License
 
