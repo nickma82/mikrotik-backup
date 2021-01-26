@@ -5,6 +5,5 @@ routers=( 192.168.1.1 192.168.2.1 192.168.3.1 )
 port="22"
 backupdir="/home/backup/mikrotik"
 privatekey="/root/.ssh/id_dsa"
-login="user"
-passwd="pasSw0rd"
 fulldir="${backupdir}/$(date +%Y)/$(date +%m)/$(date +%d)"
+user="user"

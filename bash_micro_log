@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+GRN='\033[0;32m'; RED='\033[0;31m'; NC='\033[0m' # No Color
+function err   { echo -e "${RED}[E] $*${NC}"; }
+function info  { echo -e "${GRN}[I] $*${NC}"; }
+function debug { echo -e "[D] $*"; }

@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+source "${DIR}/bash_micro_log"
+
+function mikrotik_exec() {
+  local SERVER_IP=$1
+  local CMD=$2
+
+  ssh "${user}@${SERVER_IP}" -p "${port}" -i "${privatekey}" "${CMD}" #> /dev/null
+  return $?
+}
+
+function mikrotik_routerboard_info() {
+  local SERVER_IP=$1
+  mikrotik_exec "${SERVER_IP}" "/system routerboard print"
+}
+
+# Health checks the connection to the router
+function mikrotik_get_os_version() {
+  local SERVER_IP=$1
+  local -n __version=$2 # return variable
+  VERSION=$(mikrotik_exec "${SERVER_IP}" "/system package print terse where name=system")
+  RC=$?
+
+  if [ $RC -eq 0 ]; then
+    __version=$(echo "${VERSION}" | awk '{split($3,dst,"="); print dst[2]}')
+  fi
+  return $RC
+}
+
+function mikrotik_dump_backup() {
+  local SERVER_IP=$1
+  local REMOTE_BACKUP_PREFIX=$2
+
+  # TODO password=StrongPass encryption=aes-sha256
+  cmd_backup="/system backup save name=${REMOTE_BACKUP_PREFIX}.backup"
+  mikrotik_exec "$SERVER_IP" "${cmd_backup}"
+  # exports the settings into a *.rsc file
+  cmd_backup="/export file=${REMOTE_BACKUP_PREFIX}"
+  mikrotik_exec "$SERVER_IP" "${cmd_backup}"
+}
+
+function mikrotik_sftp_download() {
+  local SERVER_IP=$1
+  local LOCATION_SRC=$2
+  local LOCATION_DST=$3
+  sftp -i "${privatekey}" "${user}@${SERVER_IP}:${LOCATION_SRC}" "${LOCATION_DST}"
+}
